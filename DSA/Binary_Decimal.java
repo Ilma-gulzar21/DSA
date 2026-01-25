@@ -9,13 +9,14 @@ class   Binary_Decimal{
            pow=pow*2;
            binary = binary/10;
         }
-          System.out.println("Binary = "+decimal);
+          System.out.println("Decimal = "+decimal);
       }
     public static void main(String args[]) {
     Scanner sc= new Scanner(System.in);
-    System.out.print("Enter the value of num = ");
+    System.out.print("Enter the Binary Number = ");
     int num=sc.nextInt();
     DecimalToBinary(num); 
     sc.close();
 }
+
 }
