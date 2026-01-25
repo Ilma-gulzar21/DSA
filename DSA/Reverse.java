@@ -23,9 +23,10 @@ class Reverse{
 
       ReverseWithSwapping(arr);
      System.out.println("Reverse Array");
-     for(int i=0;i<arr.length;i++) {
+     for(int i=0;i<n;i++) {
      System.out.println(arr[i]+" ");
       }
     sc.close();
 }
+
 }  
