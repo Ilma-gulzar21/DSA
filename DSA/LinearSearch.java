@@ -1,32 +1,25 @@
 import java.util.Scanner;
-class LinearSearch {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int index=-1;
-        boolean found=false;
+public class LinearSearch {
 
-        System.out.print("Enter the Size of an Array = ");
-        int n=sc.nextInt();
-
-        int arr[] = new int[n];
-        System.out.println("Enter Array Element");
-        for(int i=0;i<n;i++) {
-            arr[i] =sc.nextInt();
-        } 
-
-        System.out.println("Enter the element you want to search in the Array");
-        int key = sc.nextInt();
-        for(int i=0;i<arr.length;i++) {
-            if(key == arr[i]) {
-               index=i;
-               found = true;
-            } 
-        }
-      if(found) {
-        System.out.println(key +" is present at index "+index);
-      } else {
-       System.out.println(key +" is not present in the array");
+  static int Linear(int arr[], int key) {
+    for(int i=0;i<arr.length;i++) {
+      if(key == arr[i]) {
+        return key;
       }
-      sc.close();
     }
+    return -1;
+  }
+  public static void main(String args[]) {
+    Scanner sc = new Scanner(System.in);
+     int arr[]= {2,6,8,22,37,40,45};
+     int key=100;
+     int index= Linear(arr,key);
+     if(index == -1) {
+      System.out.println("Key not Found = "+index);
+     } else {
+       System.out.println("Key Found = "+index);
+     }
+  sc.close();
+ }
+    
 }
