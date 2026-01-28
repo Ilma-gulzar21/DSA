@@ -8,7 +8,7 @@ class  ChechPallindrome {
             reverse =reverse * 10 + digit;
             num = num/10;
         }
-      if(original==reverse)  {
+      if(original == reverse)  {
         System.out.println("this is pallindrome");
       } else {
         System.out.println("this is not pallindrome");
