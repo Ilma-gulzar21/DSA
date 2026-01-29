@@ -16,6 +16,6 @@ public class TaxCalculate {
     System.out.print("Enter a income = ");
     double income=sc.nextInt();
      TaxCalculator(income);
-   sc.close();
+   sc.close() ;
 }
 }
