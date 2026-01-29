@@ -32,7 +32,7 @@ class B {
     System.out.println("Enter Array Element");
     for(int i=0;i<n;i++) {
     arr[i]=sc.nextInt();
-      }
+         }
 
      MaxSumArrayPairs(arr);
     sc.close();
