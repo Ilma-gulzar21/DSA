@@ -8,7 +8,7 @@ class Reverse{
        arr[start] = arr[end];
        arr[end]=temp;
        start++;
-       end--;
+       end-- ;
              }
       }
     public static void main(String args[]) {
