@@ -17,7 +17,7 @@ public class LinearSearch {
      if(index == -1) {
       System.out.println("Key not Found = "+index);
      } else {
-       System.out.println("Key Found = "+index);
+       System.out.println("Key Found = "+index) ;
      }
   sc.close();
  }
