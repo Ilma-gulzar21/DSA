@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Two{
+class Arithematic {
     public static void main(String[] args){
         int a,b;
         Scanner sc=new Scanner(System.in);
@@ -25,4 +25,5 @@ class Two{
         System.out.println("Maximum: "+b+"\nMinimum: "+a);
         sc.close();
     }
+
 }
