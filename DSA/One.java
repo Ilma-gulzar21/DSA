@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class One {
+public class printDetails {
 
     public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
@@ -33,4 +33,5 @@ public class One {
        sc.close();
     }
     
+
 }
