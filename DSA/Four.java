@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Four {
+public class RoundCeilRound {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
@@ -45,4 +45,5 @@ public class Four {
 
         sc.close();
     }
+
 }
