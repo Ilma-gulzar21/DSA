@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Three {
+public class Temperature {
 public static void main(String args[]) {
 Scanner sc = new Scanner(System.in);
 
@@ -20,4 +20,5 @@ System.out.printf("%5.2f      %5.5f %n",Fahrenheit[i],Calsius[i]);
 }
 sc.close();
 }
+
 }
