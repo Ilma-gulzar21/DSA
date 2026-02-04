@@ -8,7 +8,7 @@ public class SmallNum {
       small=arr[i];
      }
     }
-    return small;
+         return small;
   }
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
