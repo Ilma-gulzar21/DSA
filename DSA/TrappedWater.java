@@ -29,5 +29,5 @@ static int TrappeRaindWater(int height[]) {
  int height[] ={4,2,0,6,3,2,5};
  System.out.print( TrappeRaindWater(height));
   }
- }
+   }
  
