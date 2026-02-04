@@ -15,6 +15,6 @@ class  BinomialCofficient {
     int r =sc.nextInt();
     int BC = factorial(n)/(factorial(r) * factorial(n-r));
     System.out.println("Binomial cofficient = " +BC);
-    sc.close();
+      sc.close();
 }
 }
