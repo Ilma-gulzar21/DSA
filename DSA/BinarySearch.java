@@ -35,6 +35,6 @@ class  BinarySearch{
              System.out.println(key+ " is present at index "+result);
     }
  
-    sc.close();
+     sc.close();
 }
 }  
