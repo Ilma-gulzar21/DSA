@@ -21,8 +21,7 @@ class  CountNumberOfDigits {
     Scanner sc= new Scanner(System.in);
     System.out.println("Enter the value of num");
     int num=sc.nextInt();
-    DigitsOp(num);
-   
+    DigitsOp(num);
     sc.close();
 }
 }
