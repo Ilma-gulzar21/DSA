@@ -31,6 +31,7 @@ public class  AddressPrint {
        System.out.println("Pincode = " +pincode);
        System.out.println("State name = " +state_name);
        sc.close();
+
     }
     
 }
