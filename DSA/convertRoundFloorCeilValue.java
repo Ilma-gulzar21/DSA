@@ -41,8 +41,7 @@ public class convertRoundFloorCeilValue {
             numFloor = numInteger - 1;
         }
         System.out.println("Floor value of num = " + numFloor);
-        System.out.println("NumInteger= " + numInteger);
-
+        System.out.println("NumInteger= " + numInteger);
         sc.close();
     }
 }
