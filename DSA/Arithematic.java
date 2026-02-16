@@ -25,4 +25,5 @@ class  Arithematic{
         System.out.println("Maximum: "+b+"\nMinimum: "+a);
         sc.close();
     }
+
 }
