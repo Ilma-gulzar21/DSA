@@ -20,6 +20,7 @@ class ArrayElementAllPairs{
       }
 
     ArrayPairs(arr);
+
     sc.close();
 }
 }  
