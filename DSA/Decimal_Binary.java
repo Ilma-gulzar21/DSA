@@ -17,5 +17,6 @@ class  Decimal_Binary{
     int num=sc.nextInt();
     DecimalToBinary(num); 
     sc.close();
+
 }
 }  
