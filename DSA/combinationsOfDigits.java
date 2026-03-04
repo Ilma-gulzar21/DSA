@@ -34,5 +34,5 @@ public static void main(String args[]) {
     }
     pair. AllCombination(arr);
        sc.close();
-    }
+       }
  }
