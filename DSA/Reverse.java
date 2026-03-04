@@ -27,6 +27,6 @@ class Reverse{
      System.out.println(arr[i]+" ");
       }
     sc.close();
-}
+  }
 
 }  
