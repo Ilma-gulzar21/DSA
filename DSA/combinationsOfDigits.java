@@ -18,7 +18,7 @@ class combinations {
                 if(arr[i] != arr[j] && arr[j] != arr[k] && arr[i] != arr[k]) {
                     System.out.println(arr[i]+ "" +arr[j]+ ""+arr[k]); 
                 }
-            }
+               }
         }
        } 
     }
