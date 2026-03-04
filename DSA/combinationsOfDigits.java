@@ -33,6 +33,6 @@ public static void main(String args[]) {
         arr[i]=sc.nextInt();
     }
     pair. AllCombination(arr);
-    sc.close();
+       sc.close();
     }
  }
