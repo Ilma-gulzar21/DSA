@@ -1,0 +1,25 @@
+class Palindrome {
+    private String text;
+
+    public Palindrome(String text) {
+        this.text = text;
+    }
+
+    public boolean isPalindrome() {
+        String reverse = "";
+        for (int i = text.length() - 1; i >= 0; i--) {
+            reverse = reverse+ text.charAt(i);
+        }
+        return text.equals(reverse);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Palindrome p1 = new Palindrome("ilma");
+        Palindrome p2 = new Palindrome("madam");
+
+        System.out.println(p1.isPalindrome());
+        System.out.println(p2.isPalindrome());
+    }
+}
