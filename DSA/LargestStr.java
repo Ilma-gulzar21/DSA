@@ -12,7 +12,7 @@ class Lexicographical {
             }
 
             else if(str1.charAt(i) > str2.charAt(i)) {
-                int result = str1.charAt(i) - str2.charAt(i); // yaha change
+                int result = str1.charAt(i) - str2.charAt(i); 
                 return result;
             }
         }
